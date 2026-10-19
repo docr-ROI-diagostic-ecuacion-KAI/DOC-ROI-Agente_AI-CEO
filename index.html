@@ -81,7 +81,7 @@
     // Local test URL supplied by the user. It works only on the computer running n8n.
     const LOCAL_CHAT_URL = "http://localhost:5678/webhook/doc-roi-ceo-treatment-v01/chat";
     // Replace this with the public Chat URL from the n8n Chat Trigger for Vercel deployment.
-    const PUBLIC_CHAT_URL = "";
+    const PUBLIC_CHAT_URL = "https://reader-sensor-concord-nevada.trycloudflare.com/webhook/doc-roi-ceo-treatment-v01/chat";
     const CHAT_URL = location.protocol === "file:" || location.hostname === "localhost" ? LOCAL_CHAT_URL : PUBLIC_CHAT_URL;
     const SESSION_KEY = "docroi-cobot-ai-ceo-session-v1";
     const launcher = document.getElementById("launcher");
@@ -164,3 +164,4 @@
   </script>
 </body>
 </html>
+
